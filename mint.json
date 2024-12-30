@@ -13,7 +13,8 @@
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
-    }
+    },
+  "theme": "prism",
   },
   "topbarLinks": [
     {
