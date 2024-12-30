@@ -47,14 +47,9 @@
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Other",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "permissions"
       ]
     }
   ],
