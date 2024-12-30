@@ -43,6 +43,7 @@
       "group": "Get Started",
       "pages": [
         "introduction",
+        "claims",
         "punishment"
       ]
     },
