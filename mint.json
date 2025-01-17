@@ -42,10 +42,17 @@
   ],
   "navigation": [
     {
+      "group": "Claim System",
+      "pages": [
+        "claims/commands",
+        "claims/flags",
+        "claims/roles"
+      ]
+    },
+    {
       "group": "Get Started",
       "pages": [
         "introduction",
-        "claims",
         "plugins",
         "punishment"
       ]

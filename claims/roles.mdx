@@ -1,0 +1,62 @@
+---
+title: "Claim Rollen"
+description: "Description of your new file."
+---
+
+# Claim Rollen
+
+Die maximale Anzahl an Rollen wird via Permission des Claim Owners bestimmt:
+
+* `adventuresmp.claims.roles.limit.<limit>`
+
+## Standardrollen
+
+-# Standard Rollen sind nicht löschbar
+
+* Mitglied (Erhalt man wenn man getrusted wird)
+
+* Owner
+
+## Rollen Berechtigungen:
+
+* Spieler Trusten
+
+* Spieler Enttrusten
+
+* Spieler Bannen
+
+* Spieler Entbannen
+
+* Spieler Kicken
+
+* Flags einstellen
+
+* Interactions einstellen
+
+* Claim erweitern (Chunks hinzufügen)
+
+* Claim reduzieren (Chunks entfernen)
+
+* Claim umbenennen
+
+* Rollen & Berechtigungen Verwalten:
+  -# Hier reicht eine überstehende Permission, nicht alle einzelnd.
+
+  * Rollen Löschen
+
+  * Rollen erstellen
+
+  * Rollen verwalten
+
+  * Rollen zuweisen (Claim mitgliedern rollen geben)
+
+  * Berechtigungen bearbeiten
+
+  * Rollen umbenennen
+
+## Sonstiges
+
+Rollen sollten eine eindeutige ID und einen Anzeigenamen haben, welcher mit farbcodes und minimessage angepasst werden kann.
+Zum Rollen zuweisen wird entweder das **verwaltungs GUI** verwendet oder der Befehl `/claim setrole <Spieler> <Rollen ID>`
+
+* Die Owner Rolle kann nicht vergeben werden, und auch nicht gelöscht werden. Sie kann jedoch umbenannt werden (Die ID bleibt gleich, nur Anzeigename)
